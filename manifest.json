@@ -4,7 +4,12 @@
     "version": "1.0.0",
     "version_name": "1.0.0",
     "manifest_version": 2,
+    "icons": {
+        "16": "images/icon16.png",
+        "32": "images/icon32.png"
+      },
     "browser_action": {
+        "default_icon": "images/icon16.png",
         "default_title": "Open in flatviewer"
       },
     "background": {
