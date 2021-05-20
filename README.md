@@ -15,5 +15,19 @@ The extension simply provides a URL redirect: it reads the current Github repo U
 
 ## Installing the Extension
 
-The latest release of the extension can be installed from the
-[Chrome Web Store]().
+The latest release of the extension on **Chrome Web Store** coming soon.
+
+
+## Source Install
+
+To install the extension directly from source:
+
+1.  Clone this repository to your local disk.
+2.  Open the Chrome browser, and navigate to chrome://extensions.
+3.  Ensure that developer mode is enabled (see the switch in the upper-right).
+4.  Click "Load Unpacked" and choose the location of the `open_in_flatViewer`
+    repository. You should see a little flatViewer icon appear in your Chrome
+    extensions icons in your browser bar.
+5.  Navigate to a github repo (e.g.
+    https://github.com/misalraj/flat-demo-share-price),
+    and click the extension icon to open (CSV & JSON files) in Flat viewer.
